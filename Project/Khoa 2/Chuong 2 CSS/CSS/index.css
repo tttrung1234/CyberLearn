@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 /* HEADER */
 .header img{
     width: 200px;
@@ -22,4 +25,53 @@
     background-size: cover;
 
     height: 570px;
+}
+/* INTRO */
+.intro__text{
+    font-size: 20px;
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+.imgLeft, .imgRight{
+    float: left;
+    width: 50%;
+}
+.imgLeft .smallItem{
+    float: left;
+    width: 50%;
+}
+.intro__img img{
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+/* PRODUCTS */
+
+.products h2{
+    text-align: center;
+    font-size: 28px;
+}
+.products .products__content{
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+}
+.products .products__content img{
+    width: 100%;
+}
+.products .products__content h3{
+   font-weight: bold;
+   font-size: 25px; 
+}
+.products .products__btn{
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+}
+.clear{
+    clear: both;
 }
